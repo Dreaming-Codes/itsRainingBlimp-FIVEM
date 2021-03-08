@@ -19,7 +19,7 @@ Citizen.CreateThread(function()
             waiting = waiting + 100
             Citizen.Wait(100)
         if waiting > 5000 then
-            ShowNotification("~r~Could not load the vehicle model in time, a crash was prevented.")
+            print("~r~Could not load the vehicle model in time, a crash was prevented.")
             break
         end
     end
